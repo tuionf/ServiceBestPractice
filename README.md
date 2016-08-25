@@ -1,7 +1,7 @@
 # ServiceBestPractice
  第一行代码实践
  
- #  笔记 
+# 笔记 
  
  在MainActivity中 启动服务LongRunningService.class————在 LongRunningService.class设定定时任务 10s后执行 定时任务+广播————在AlarmReceiver.class接收广播，并 启动服务 LongRunningService.class ，这样就会形成一个长时间存活的服务
 
